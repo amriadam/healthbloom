@@ -1,0 +1,424 @@
+.forum-welcome
+{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    min-height: 500px;
+}
+
+.forum-section-content
+{
+    border: 2px $color-pistachio solid;
+    border-top: 0;
+    padding: 25px 0 25px 25px;
+    margin-bottom: 25px;
+}
+
+.forum-section-content > .ant-card-head > .ant-card-head-wrapper
+{
+  min-height: 50px;
+}
+.forum-section-content > .ant-card-head
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.forum-section-title
+{
+    background-color: $color-pistachio;
+    color: $color-pistachio-dim;
+    font-size: 1.5em;
+    padding: 5px 0 5px 15px;
+
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.section-topic-card-title
+{
+    color: black;
+    font-weight: bold;
+    font-size: 1.1em;
+    &:hover,
+    &:focus{
+      color: $color-forest-green;
+    }
+}
+
+.section-topic-card-description
+{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 1.05em;
+}
+
+.section-topic-card-img
+{
+    float: left;
+    margin-right: 1em;
+}
+
+.forum-links-container
+{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    margin-bottom: 15px !important;
+
+}
+
+.forum-link
+{
+    padding: 0 8px;
+    color: $color-forest-green;
+    &:hover,
+    &:focus{
+      color: $color-kelly-green;
+    }
+}
+
+.section-threads-title
+{
+    background-color: $color-pistachio;
+    color: $color-pistachio-dim;
+    font-size: 1.5em;
+    padding: 5px 0 5px 15px;
+
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.section-threads
+{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    min-height: 500px;
+}
+
+.section-thread-content
+{
+    border: 2px $color-pistachio solid;
+    border-top: 0;
+    padding: 15px 0 ;
+    margin-bottom: 25px;
+    padding-top: 0;
+
+}
+
+.section-threads-table th
+{
+    background-color: $color-g56;
+    color: $color-g4;
+    padding-left: 10px;
+    height: 25px;
+}
+
+.section-threads-table th
+{
+    height: 40px;
+}
+
+.section-threads-table
+{
+    height: 30px;
+    width: 100%;
+    margin-top: 0;
+    border-radius: 15px  !important;
+    border-collapse:collapse !important;
+}
+
+.section-threads-table tr:first-child th:first-child{
+    border-top-left-radius: 10px;
+  }
+
+.section-threads-table tr:last-child td:first-child{
+    border-bottom-left-radius: 10px;
+  }
+
+.section-threads-table tr:first-child th:last-child{
+    border-top-right-radius: 10px;
+  }
+
+.section-threads-table tr:last-child td:last-child{
+    border-bottom-right-radius: 10px;
+  }
+
+.section-threads-table td
+{
+    padding: 0;
+}
+.section-threads-title-table-header
+{
+    width: 70%;
+}
+
+.section-threads-activity-table-header
+{
+    width: 10%;
+}
+
+.section-threads-last-added-table-header
+{
+    width: 20%;
+}
+
+.section-thread-table-row
+{
+    &:nth-child(odd)
+    {
+    background-color: $color-g24;
+        
+    }
+
+    &:nth-child(even){
+        background-color: $color-g8;
+    }
+}
+
+.section-thread-card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 10px;
+}
+
+.section-thread-card-title
+{
+    font-size: 1.2em;
+    color: $color-forest-green;
+
+    &:hover,
+    &:focus{
+      color: $color-kelly-green;
+    }
+}
+
+.section-thread-card-infos a
+{
+    color: $color-forest-green;
+
+    &:hover,
+    &:focus{
+      color: $color-kelly-green;
+    }
+}
+
+.section-threads-pagination
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.thread
+{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    min-height: 500px;
+}
+
+.thread-content
+{
+    padding: 0 !important;
+}
+
+.thread-title
+{
+    background-color: $color-pistachio;
+    color: $color-pistachio-dim;
+    font-size: 1.5em;
+    padding: 5px 0 5px 15px;
+
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.thread-title-row
+{
+    background-color: $color-g56;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    min-height: 40px;
+    margin: 0 !important;
+
+}
+
+.thread-title-row > div
+{
+    padding: 0;
+}
+
+.thread-content-card
+{
+    min-height: 50px;
+    width: 100%;
+}
+
+
+.thread-content-card > div
+{
+    min-height: 50px;
+    border-bottom: 2px solid $color-g8;
+    
+}
+
+.thread-comment-content
+{
+    color:$color-forest-green;
+    padding: 25px;
+    position: relative;
+}
+
+.thread-main-content
+{
+    border-left: 2px solid $color-g8;
+
+    background: 
+    linear-gradient(to top right,#0000 50%,#282828 50.1%) top right/40px 40px no-repeat,
+    black; 
+    overflow: hidden;
+}
+
+.thread-comment-content > h3
+{
+    color:$color-forest-green-dark;
+}
+
+.thread-comment-content > p
+{
+    font-size: 1.2em;
+
+}
+
+.thread-comment-control
+{
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.thread-comment-content p
+{
+    font-weight: 500;
+}
+
+.thread-profile-info
+{
+    background-color: $color-g24;
+    padding: 15px;
+    
+
+}
+
+.thread-profile-info > div
+{
+    border-right: 2px solid $color-g8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thread-profile-info img
+{
+    width: 70%;
+    position: relative;
+    border: 1px solid $color-g56;
+    border-radius: 5%;
+}
+
+.thread-profile-info a
+{
+    font-weight: 700;
+    color: $color-g56;
+    &:hover,
+    &:focus{
+      color: $color-forest-green-dark;
+    }
+}
+
+
+.thread-profile-info h5
+{
+    background-color: rgb(46, 44, 42);
+    padding: 10px;
+    font-size: 1.1em;
+    color: white;
+}
+
+.thread-comment-content
+{
+    background-color: $color-g24;
+}
+
+
+.thread-comment-input
+{
+    margin-top: 25px !important;
+    width: 100%;
+    font-size: 1.2em;
+}
+.thread-comment
+{
+    position: relative;
+}
+.thread-comment-button
+{
+    margin:25px !important;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.comment-like-count
+{
+    position: relative;
+    top: 3px;
+    right: 7px;
+    display:inline;
+    font-size: 1.2em;
+    font-weight: bold !important;
+    color:#c2185b;
+}
+
+.section-threads-links-container
+{
+    margin-bottom: 15px !important;
+    font-weight: 700;
+
+}
+
+.news-carroussel-title
+{
+    margin-top: 15px;
+    color: white !important;
+    text-shadow: 1px 1px black;
+    padding: 0 15px !important;
+}
+
+.news-carroussel-description
+{
+    font-size: 1.2em;
+    display: block  !important;
+    color: white !important;
+    text-shadow: 1px 1px black;
+    padding: 0 15px !important;
+}
+
+.create-thread-title-input
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.create-thread-body-input
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
